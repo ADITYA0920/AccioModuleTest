@@ -1,0 +1,14 @@
+.diiv {
+    width: 100px;
+    height: 100px;
+
+    background-color: blue;
+}
+
+diiv :nth-child(2n+1):hover {
+    color: red;
+}
+
+/* .container p:nth-child(2n+1):hover{
+    color: lightblue;
+} */
