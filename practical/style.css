@@ -1,0 +1,40 @@
+* {
+    margin-top: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+
+    display: flex;
+    height: 900px;
+    /* align-content: center; */
+    /* justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+
+.container-item {
+    width: 300px;
+    height: 100px;
+    flex-wrap: wrap;
+    border: 10px solid rgb(247, 43, 77);
+    border-radius: 10px;
+    background-color: rgb(225, 150, 162);
+    gap: x;
+}
+
+
+
+.container .item-1:hover {
+    /* background-color: rgb(93, 87, 87); */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    /* border-radius: 5px solid red; */
+}
+
+.container div {
+    text-align: center;
+    background-color: ;
+}
